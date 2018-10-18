@@ -1,0 +1,49 @@
+server:
+  port: 9981
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9980/eureka/
+zuul:
+  routes:
+    material-service:
+      path: /material-service/**
+      #敏感头信息
+      sensitiveHeaders:
+      serviceId: material-service
+    auth-server:
+      path: /auth-server/**
+      sensitiveHeaders:
+      serviceId: auth-server
+  #添加代理头
+  add-proxy-headers: true
+  #是否开启重试功能
+  retryable: true
+#ribbon 重试时间
+ribbon:
+  #配置连接超
+  ConnectTimeout: 1000
+  #请求处理
+  ReadTimeout: 2000
+  OkToRetryOnAllOperations: true
+  #同一个Server重试的次数(除去首次)
+  MaxAutoRetries: 1
+  #切换相同Server的次数
+  MaxAutoRetriesNextServer: 1
+  okhttp:
+      enabled: true
+
+
+#hystrix    熔断服务 转发等待时长
+hystrix:
+  command:
+    default:
+      execution:
+        enabled: false
+    isolation:
+      thread:
+        timeoutInMilliseconds: 7000
+
