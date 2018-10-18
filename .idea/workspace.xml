@@ -2,51 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca61db3d-a309-4da2-a7ef-555cb4d65845" name="Default" comment="初始化">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/mlink/ApiGatewayApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/mlink/configurer/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/mlink/error/CustomErrorAttributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/mlink/filter/AuthFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/configurer/MyConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/configurer/MybatisConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/configurer/Swagger2Config.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/configurer/WebMvcConfigurer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/core/Result.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/core/ResultCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/core/ResultGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/utils/EncyptUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/utils/FileUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/utils/ThreadLocalUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/utils/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/utils/ValidateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/common/utils/ZipUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/controller/TestController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/entity/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/mapper/TestMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/mapper/TestMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mlink/base/service/TestService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/package.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/demo-user.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/generator/template/controller-restful.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/generator/template/controller.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/generator/template/service-impl.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/generator/template/service.ftl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/configurer/MyConfig.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/configurer/MyConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/configurer/MybatisConfig.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/configurer/MybatisConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/configurer/WebMvcConfigurer.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/configurer/WebMvcConfigurer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/core/Result.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/core/Result.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/core/ResultCode.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/core/ResultCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/core/ResultGenerator.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/core/ResultGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/utils/FileUtil.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/utils/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/utils/ThreadLocalUtils.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/utils/ThreadLocalUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/utils/Utils.java" afterPath="$PROJECT_DIR$/material-service/src/main/java/com/mlink/common/utils/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/resources/banner.txt" afterPath="$PROJECT_DIR$/material-service/src/main/resources/banner.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/material-service/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-service/src/main/resources/package.xml" afterPath="$PROJECT_DIR$/material-service/src/main/resources/package.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/configurer/Swagger2Config.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/configurer/Swagger2Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/utils/EncyptUtil.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/utils/EncyptUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/utils/ValidateUtil.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/utils/ValidateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/utils/ZipUtil.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/common/utils/ZipUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/service/UserService.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/mlink/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,7 +204,7 @@
       <updated>1539250996623</updated>
       <workItem from="1539251000711" duration="177000" />
       <workItem from="1539251226743" duration="1198000" />
-      <workItem from="1539862503072" duration="78000" />
+      <workItem from="1539862503072" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1539251301385</created>
@@ -250,7 +224,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1453000" />
+    <option name="totallyTimeSpent" value="1637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="225" y="23" width="1280" height="777" extended-state="0" />
