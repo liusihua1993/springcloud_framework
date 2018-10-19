@@ -7,16 +7,16 @@ import com.mlink.entity.User;
 import com.mlink.mapper.MaterialMapper;
 import com.mlink.service.client.UserClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
- * Created by fudazhi on 2018/10/15.
- * 注:  需要回归接口添加 注解 ：@Transactional(rollbackFor = Exception.class)
+ * @author LSH
+ * @version 1.1
+ * @date 2018/10/17
+ * @Description
  */
-
-
 @Service
 @EnableTransactionManagement
 public class MaterialService  {
@@ -26,6 +26,7 @@ public class MaterialService  {
     @Autowired
     private UserClient userClient;
 
+    @Transactional(rollbackFor = Exception.class)
     public void insert(Material material) {
         String phone = "17610271025";
         User user = userClient.getUserByPhone(phone);
