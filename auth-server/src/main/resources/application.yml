@@ -29,6 +29,10 @@ mybatis:
   typeAliasesPackage: com.**.**.entity
   mapperLocations: classpath:com/**/**/mapper/*.xml
 
+ribbon:
+  eager-load:
+    enabled: true
+    clients: auth-server
 #安全配置
 security:
   #oauth2配置

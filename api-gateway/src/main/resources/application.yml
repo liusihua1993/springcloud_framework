@@ -8,6 +8,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:9980/eureka/
 zuul:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
   routes:
     material-service:
       path: /material-service/**
@@ -22,12 +25,15 @@ zuul:
   add-proxy-headers: true
   #是否开启重试功能
   retryable: true
+#  ribbon:
+#      eager-load:
+#        enabled: true
 #ribbon 重试时间
 ribbon:
   #配置连接超
-  ConnectTimeout: 1000
+  ConnectTimeout: 7000
   #请求处理
-  ReadTimeout: 2000
+  ReadTimeout: 15000
   OkToRetryOnAllOperations: true
   #同一个Server重试的次数(除去首次)
   MaxAutoRetries: 1
@@ -35,15 +41,16 @@ ribbon:
   MaxAutoRetriesNextServer: 1
   okhttp:
       enabled: true
-
+  eager-load:
+    enabled: true
+    clients: material-service,auth-server,user-service
 
 #hystrix    熔断服务 转发等待时长
 hystrix:
   command:
     default:
       execution:
-        enabled: false
-    isolation:
-      thread:
-        timeoutInMilliseconds: 7000
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
 
